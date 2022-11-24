@@ -6,7 +6,7 @@ class Header extends React.Component{
 
             <header className="header">
                 <nav className="navbar container">
-                <img src={v5_13} alt="Logo" className="logo" />
+                <img src={v5_13}alt="Logo" className="logo" />
                 <ul className="nav-menu">
                 <li className="nav-menu--item">
                  <a href="/html/Premium.html">Servicios</a>
