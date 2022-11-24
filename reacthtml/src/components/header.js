@@ -9,13 +9,13 @@ class Header extends React.Component{
                 <img src={v5_13}alt="Logo" className="logo" />
                 <ul className="nav-menu">
                 <li className="nav-menu--item">
-                 <a href="/html/Premium.html">Servicios</a>
+                 <a href="/Premium">Servicios</a>
                 </li>
                 <li className="nav-menu--item">
-                 <a href="./html/integrantes.html">¿Quienes somos?</a>
+                 <a href="/integrantes.html">¿Quienes somos?</a>
                 </li>
                 <li className="nav-menu--item">
-                 <a href="/html/FAQ.html">FAQ</a>
+                 <a href="/FAQ.html">FAQ</a>
                 </li>
                 </ul>
                 </nav>
@@ -23,7 +23,7 @@ class Header extends React.Component{
 
 
 
-        )
+        );
 
     }
 
