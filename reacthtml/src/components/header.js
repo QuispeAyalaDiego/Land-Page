@@ -15,7 +15,7 @@ class Header extends React.Component{
                  <a href="/Integrantes">¿Quienes somos?</a>
                 </li>
                 <li className="nav-menu--item">
-                 <a href="/FAQ.html">FAQ</a>
+                 <a href="/FAQ">FAQ</a>
                 </li>
                 </ul>
                 </nav>

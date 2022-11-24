@@ -4,93 +4,60 @@ class Premium extends React.Component{
     render(){
         return (
             <main>
-            <section className="chad">
-                <h1 className="hero-title-FAQ">
-                {" "}
-                <span className="white">
-                    PREGUNTAS
-                    <br />
-                    FRECUENTES
-                </span>
-                </h1>
-                <h2 className="subtext">
-                <span className="white">
-                    ¿Tienes alguna pregunta? Nosotros estamos aqui para solucionar tus
-                    dudas.
-                    <br /> Echale un vistazo a nuestra lista de respuestas.
-                </span>{" "}
-                </h2>
-            </section>
-            <section className="Principal-FAQ">
-                <div className="container">
-                <div className="FAQ-list">
-                    <div className="FAQ-list-item">
-                    <div className="FAQ-list-card">
-                        <h3 className="FAQ-list-item-title">
-                        ¿Qué beneficios tiene adquirir
-                        <br /> este producto o servicio?
-                        </h3>
-                        <p className="FAQ-benefits-item--desc">
-                        Al obtener este servicio podras tener acceso a muchos tipos de
-                        ejercicios que se adapten atus objetivos. Ademas, si obtienes el
-                        VIP podras tener seguimiento de entrenadores personales, los
-                        cuales tambien te guiaran en tu alimentamiento.
-                        </p>
+                            <section className="Background-prices">
+                <h1 className="prices-tittle">PLANES Y PRECIOS</h1>
+                <hr className="prices-line" />
+                <section className="container-prices flex">
+                    <div className="columna-prices">
+                    <h4 className="time-prices" style={{ color: "white" }}>
+                        MONTHLY
+                    </h4>
+                    <h1 className="type-prices">BASICO</h1>
+                    <h2 className="prices">Gratis</h2>
+                    <p className="prices-description">
+                        Ingresa a nuestra aplicacion y disfruta de todas las ventajas gratis que
+                        te ofrecemos
+                    </p>
+                    <ol className="list-gifs" style={{ paddingBottom: 77 }}>
+                        <li>Acceso completo a la aplicacion</li>
+                        <li>Ejercicios casuales de corta duracion</li>
+                        <li>Vista de los avances en ejercicios</li>
+                        <li>Acceso a videos cortos</li>
+                    </ol>
+                    <h6 className="btn-prices">BUY NOW</h6>
                     </div>
+                    <div className="columna-prices">
+                    <h4 className="time-prices">MONTHLY</h4>
+                    <h1 className="type-prices">VIP</h1>
+                    <h2 className="prices">S/19.99</h2>
+                    <p className="prices-description">
+                        Obten la ventaja VIP y ten acceso a todas sus ventajas
+                    </p>
+                    <ol className="list-gifs" style={{ paddingBottom: 40 }}>
+                        <li>Entrenadores personales via zoom</li>
+                        <li>Acceso completo a todas las funcionalidades de la aplicacion</li>
+                        <li>Aumento en tiempo en los ent renamientos casuales</li>
+                        <li>Diagnostico para dietas personalizadas</li>
+                        <li>Todas las ventajas del Basico</li>
+                    </ol>
+                    <h6 className="btn-prices">BUY NOW</h6>
                     </div>
-                    <div className="FAQ-list-item">
-                    <div className="FAQ-list-card">
-                        <h3 className="FAQ-list-item-title">
-                        ¿Realmente necesito este
-                        <br />
-                        producto o servicio?
-                        </h3>
-                        <p className="FAQ-benefits-item--desc">
-                        Este servicio te aportara mas facilidades y una guia que te
-                        <br /> ayudara en poder tener una vida mas saludable. Esto es
-                        <br /> muy necesario en la vida para evitar problemas futuros de
-                        <br /> la salud.
-                        </p>
+                    <div className="columna-prices">
+                    <h4 className="time-prices">MONTHLY</h4>
+                    <h1 className="type-prices">DÚO VIP</h1>
+                    <h2 className="prices">S/29.99</h2>
+                    <p className="prices-description">
+                        Obten la ventaja Dúo VIP y disfruta con alguien mas de todas sus
+                        ventajas
+                    </p>
+                    <ol className="list-gifs" style={{ paddingBottom: 87 }}>
+                        <li>Dos cuentas con as ventajas del individual</li>
+                        <li>30% de descuento</li>
+                    </ol>
+                    <h6 className="btn-prices">BUY NOW</h6>
                     </div>
-                    </div>
-                    <div className="FAQ-list-item">
-                    <div className="FAQ-list-card">
-                        <h3 className="FAQ-list-item-title">
-                        ¿Qué métodos de pago aceptan?
-                        </h3>
-                        <p className="FAQ-benefits-item--desc">
-                        Se acepta pagos por medio de Paypal o VISA. El pago es
-                        <br /> seguro y se puede hacer un reembolso antes de los 10 dias
-                        de usado el VIP.
-                        </p>
-                    </div>
-                    </div>
-                    <div className="FAQ-list-item">
-                    <div className="FAQ-list-card">
-                        <h3 className="FAQ-list-item-title">¿Como funciona?</h3>
-                        <p className="FAQ-benefits-item--desc">
-                        Al registrarte e iniciar sesion en la aplicacion tendras
-                        <br /> acceso a las funciones basicas de la aplicacion. A partir
-                        de aqui, puedes empezar con los ejercicios casuales
-                        <br /> y ver tus avances con cada ejercicio que realices. <br />{" "}
-                        Podras acceder en cualquier momento a nuevas funciones por medio
-                        de la suscripcion VIP.
-                        </p>
-                    </div>
-                    </div>
-                </div>
-                <header className="Next">
-                    <nav className="Next-navabar">
-                    <li className="nav-menu--item">
-                        <a href="/html/product.html">
-                        {" "}
-                        <img src={image_46} />
-                        </a>
-                    </li>
-                    </nav>
-                </header>
-                </div>
-            </section>
+                </section>
+                </section>
             </main>
 
 
