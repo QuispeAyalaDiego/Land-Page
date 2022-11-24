@@ -1,0 +1,762 @@
+* { 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Inter', sans-serif;
+  font-size: 62.5%;
+  /* 1rem = 10px */
+  /* 2rem = 20px */
+  /* 1.5rem = 15px */
+}
+
+:root {
+  --red: #AA2E2E;
+}
+
+.white {
+  color: white;
+}
+.red {
+  color: var(--red);
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Header */
+.header {
+  width: 100%;  
+  background: var(--red);
+  mix-blend-mode: normal;
+}
+
+
+.logo {
+  width: 80px;
+  height: 47px;
+  object-fit: cover;
+}
+.navbar {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 30px;
+}
+.nav-menu .nav-menu--item {
+  font-size: 1.5rem;
+}
+.nav-menu .nav-menu--item a { 
+  color: white;
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  min-width: 600px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.Ingresar-Correo{
+
+  background-image: url("./assets/IMG/image_23.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 400px 0;
+  padding-bottom: 14% ;
+
+
+}
+
+.infoContact{
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  box-sizing: border-box;
+
+
+}
+.infoContact form input{
+
+  width: 500px;
+  height: 30px;
+  outline: none;
+  border: none;
+  font-size: 2em;
+  border-left: 2px solid #0000;
+  margin: 5px;
+  background-color: #ffffff;
+
+
+}
+
+.infoContact button {
+  margin: 5px;
+  font-size: 15px;
+  width: 100px;
+  height: 30px;
+  background: rgb(185, 56, 56);
+  cursor: pointer;
+  border: none;
+  color: rgb(243, 243, 243);
+  position: relative;
+  border-radius: 12px;
+} 
+.Ingresar-Correo-Title{
+  font-size: 5rem;
+  line-height: 4.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #f7f7f7;
+}
+.Ingresar-Correo-Desc{
+  padding-top: 5%;
+ color: #d2d2d2;
+  font-size: 2.5rem;
+  line-height: 2.2rem;
+  font-weight: 600;
+  margin-top: 10px;
+  padding-left: 2%;
+  text-align: center;
+
+
+}
+
+
+
+.Barra-Correo-Ingresa{
+ padding-top: 15%;
+ padding-left: 5%;
+
+}
+.Barra-Correo-Ingresa img{
+height: 60px;
+align-self: center;
+
+
+}
+.Inresar-Correo-Div{
+
+display:flex;
+
+}
+
+.Ingresa-Correo-Button{
+
+  padding-top: 15%;
+  padding-left: 5%;
+
+}
+.Ingresa-Correo-Button img{
+
+height:60px;
+align-self: center;
+
+
+
+}
+
+
+
+/* Hero */
+.hero {
+  background-image: url("./assets/IMG/v5_12.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 400px 0;
+}
+.hero-title {
+  
+  color: var(--red);
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 7.2rem;
+}
+
+/* Benefits */
+.benefits {
+  padding: 20px 0;
+}
+.benefits-title {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 800;
+}
+.benefits-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+  justify-content: space-between;
+  gap: 30px;
+}
+.benefits-item--title {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+}
+.benefits-item--img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+.benefits-item--desc {
+  color: #878787;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.Trainer-Info {
+  background-image: url("./assets/IMG/image_16.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 400px 0;
+  padding-bottom: 5%;
+}
+
+
+.Trainer-Title{
+  color: #f7f7f7;
+  font-size: 4rem;
+    line-height: 4.5rem;
+    font-weight: 800;
+  
+    text-align: center;
+}
+.Trainer-List{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 30px;
+  justify-content: space-between;
+  gap: 20px;
+ padding-left: 5%;
+
+
+}
+.Trainer-List-Item{
+ align-items: left;
+  width: 25rem;
+  height: 40rem;
+  
+  background-color: #ffffff;
+  text-align: center;
+  
+
+
+}
+.Trainer-List-Item img{
+
+  
+ padding-right: 10%;
+ height: 70%;
+  width: 110%;
+}
+.Trainer-List-Name{
+
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+  color: #000000;
+
+}
+.Trainer-List-Description{
+
+  color: #878787;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 600;
+  margin-top: 10px;
+
+}
+
+.Cliente-Info{
+  background-image: url("./assets/IMG/bgm_clientes.PNG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 400px 0;
+  padding-bottom: 10%;
+
+}
+
+
+.Cliente-Info-Red img{
+  padding-left: 14%;
+  height: 150%;
+  text-align: center;
+}
+
+
+
+/* Who we are */
+
+.aboutus {
+  background-image: url("./assets/IMG/v31_4.png");
+  background-position: center;
+  background-size: 120px;
+  background-size: cover;
+  
+  
+}
+.whoweare {
+  display: flex;
+}
+
+.whoweare img{
+  padding-top: 60px;
+  border-radius: 10px;
+  padding-right: 60px;
+ 
+}
+.whoweare-content .whoweare--title {
+  color: var(--red);
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 7.2rem;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.whoweare-content .whoweare--desc {
+  color: rgba(255, 255, 255, 0.64);
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 8.4rem;
+  padding-left: 30px;
+ 
+}
+ .integrant-card{
+    width: 20rem;
+    height: 30rem;
+    padding: 0px 5px;
+    background-color: #949494;
+    text-align: center center;
+    border-radius: 5%;
+    align-items: center;
+}
+
+ .Card-Member_Networking img{
+  width: 28px;
+  height: 26px;
+  margin-top: 5px;
+ 
+ 
+  
+}
+
+.Card-Member_Networking a{
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 5%;
+  
+
+}
+
+.Team{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  justify-items: center;
+
+
+}
+
+
+.Card-Member{
+  width: 24rem;
+  height: 32rem;
+  padding: 0px 5px;
+  background-color: #606060;
+  text-align: center;
+  border-radius: 5%;
+
+
+}
+.Card-Member_text{
+color:white;
+font-family: 'Inter';
+font-style: normal;
+align-items: center;
+text-align: center;
+}
+
+.team--title{
+  color: var(--red);
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 7.2rem;
+  padding-bottom: 120px;
+  padding-left: 20px;
+}
+.Card-Member_text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+}
+.whoweare img{
+  width: 216px;
+  height: 281px;
+}
+
+
+
+.Team-Video-ChadFitness-video iframe{
+  
+  width: 500px;
+  height: 300px;
+
+ 
+
+
+}
+
+/*faq*/
+.chad{
+
+  background-image: url("./assets/IMG/image_29.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 200px 0;
+  
+
+
+
+}
+.hero-title-FAQ{
+
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 7.2rem;
+ padding-left: 40%;
+
+
+}
+
+.subtext{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size:20px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 5%;
+  padding-left: 35%;
+ 
+
+
+}
+
+
+.FAQ-list{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30px;
+  justify-content: space-between;
+  gap: 90px;
+  
+
+
+}
+.FAQ-list-card{
+width: 520px;
+height: 233px; 
+background-color: #232323;
+
+}
+
+.FAQ-list-item-title{
+  padding-top: 20px;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+  color: #878787;
+  padding-left: 5%;
+
+}
+
+.FAQ-benefits-item--desc{
+
+  color: #f7f7f7;
+  font-size: 1.9rem;
+  line-height: 1.8rem;
+  font-weight:500;
+  margin-top: 10px;
+  gap:50px;
+  
+  padding-left: 5%;
+}
+
+.AboutProduct-subtittle{
+  position: absolute;
+  width: 779px;
+  height: 75px;
+  left: 210px;
+  top: 479px;
+  font-family: 'Inter';
+  text-align: center;
+}
+.Next{
+padding-top: 3%;
+padding-left:50%;
+
+
+}
+
+
+.chad-2{
+  background-image: url("./assets/IMG/chad_3.PNG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 200px 0;
+  
+}
+.Chad-2-title{
+  
+  color:aliceblue;
+  font-weight: 900;
+    font-size: 6rem;
+    line-height: 7.2rem;
+    padding-left: 2%;
+
+
+
+}
+.subtext-product{
+  color: #f7f7f7;
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding-top: 5%;
+  padding-left: 2%;
+
+}
+.About-Idea-Title{
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: 600;
+  padding-top: 5%;
+  padding-left:20%;
+}
+
+
+.About-Idea-List{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 30px;
+  justify-content: space-between;
+  gap: 30px;
+
+
+}
+.About-Idea-Desc{
+  color: #878787;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 600;
+  margin-top: 10px;
+
+
+}
+
+.container-About-Idea{
+  width: 80%;
+  min-width: 600px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  
+
+
+
+}
+.container-video{
+  
+  background-image: url("./assets/IMG/Product-Video.PNG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 200px 0;
+  padding-bottom: 5%;
+}
+.Product-Video-Tittle{
+  font-size: 5rem;
+  line-height: 5rem;
+  font-weight: 600;
+  padding-left: 30px;
+  color: #f7f7f7;
+  padding-bottom: 2%;
+
+
+}
+.subtex-product-video{
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+ 
+
+}
+
+.container-video {
+display: flex;
+gap: 28%;
+
+}
+.Product-Video-Image{
+opacity: 50%;
+align-items: center;
+padding-top: 5%;
+padding-left: 6%;
+
+
+}
+.container-video-div{
+
+padding-top: 5%;
+
+}
+
+.Product-Video-ChadFitness iframe{
+  
+  left: 600px;
+  top: 951px;
+
+  width: 600px;
+  height: 300px;
+}
+
+/*Prices*/
+
+.container-prices{
+  font-family: 'Inter';
+  padding-bottom: 150px;
+}
+html, body {
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+.prices-head{
+  background-color: #AA2E2E;
+  margin: 0px;
+  padding: 18px 0px;
+  
+}
+.prices-line{
+  width: 21%;
+  background-color: white;
+  border-color: white;
+  border-style:solid;
+  border-top-width: 5px;
+  margin-bottom: 4%;
+}
+.prices-tittle{
+  color: white;
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0px;
+  padding-top: 81px;
+  text-align: center;
+}
+.Background-prices{
+  background-image: url("./assets/IMG/BG_63.png");
+  background-size:cover;
+  background-attachment: fixed;
+  padding-bottom: 4%;
+}
+.columna-prices{
+  margin: 0 auto;
+  width: 259px;
+  height: 415px;
+  box-shadow:0px 5px 100px #000000;
+  background: #FFFFFF;
+  border-radius: 23px;
+}
+.flex{
+  display: flex;
+}
+.time-prices{
+  padding: 14px 27px 5px 0px;
+  margin: 0px;
+  text-align: right;
+  font-weight: 900;
+  font-size: 12px;
+  font-weight: 900;
+}
+.type-prices{
+  font-weight: 900;
+  position: relative;
+  right: 18px;
+  font-size: 18px;
+  margin: 0px 94px 0px 0px;
+  padding-left: 45px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  background: #AA2E2E;
+  color: white;
+  
+}
+.btn-prices{
+  background: #AA2E2E;
+  border-radius: 10px;
+  margin: 0px 65px 0px 65px;
+  height: 10px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  text-align: center;
+  font-family: 'Inter';
+  position:static;
+  top: 80px;
+}
+.list-gifs{
+  font-size: 11px;
+  color: #878787;
+  padding-left: 37px;
+  padding-right: 37px;
+}
+.prices{
+  padding-top: 11px;
+  text-align: center;
+  align-items: center;
+  font-size: 54px;
+  font-weight: 700;
+  margin: 0px;
+}
+.prices-description{
+  align-items: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 0px 22px;
+}
+
