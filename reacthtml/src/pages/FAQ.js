@@ -82,7 +82,7 @@ class FAQ extends React.Component{
                 <header className="Next">
                     <nav className="Next-navabar">
                     <li className="nav-menu--item">
-                        <a href="/html/product.html">
+                        <a href="/Product">
                         {" "}
                         <img src={image_46} />
                         </a>

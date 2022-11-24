@@ -1,5 +1,5 @@
 import React from "react"
-import image_46 from "../assets/IMG/image_46.png"
+
 class Premium extends React.Component{
     render(){
         return (
