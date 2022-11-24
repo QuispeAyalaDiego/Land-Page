@@ -1,5 +1,6 @@
 import Home from "./pages/Home";
 import Premium from "./pages/Premium";
+import Integrantes from "./pages/Integrantes"
 import Header from "./components/header"
 
 
@@ -15,6 +16,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/Premium" component={Premium}/>
+        <Route path="/Integrantes" component={Integrantes}/>
       </Switch>
       
       </Router>
